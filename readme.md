@@ -1,6 +1,6 @@
 # Simple Library Management System
 
-Welcome to the **Library Management System Platform** repository! This project is a robust and scalable e-commerce application built using **Spring Boot**. It supports core functionalities like user management, product catalog, order processing, and payment integration.
+Welcome to the **Library Management System Platform** repository! This project is a robust and scalable application built using **Spring Boot**. It supports core functionalities like books management, authors information with publisher details too.
 
 ---
 
