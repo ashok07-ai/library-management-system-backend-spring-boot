@@ -31,5 +31,4 @@ Welcome to the **Library Management System Platform** repository! This project i
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ashok07-ai/spring-boot-ecommerce-application-backend
-   cd spring-boot-ecommerce-application-backend
+   git clone https://github.com/ashok07-ai/library-management-system-backend-spring-boot
