@@ -21,7 +21,7 @@ public class Author {
     private Long id;
 
     @Column(name="author_name", unique = true, nullable = false, length = 100)
-    @NotBlank(message = "Author name cannot be blank!")
+    @NotBlank(message = "Author name is required!")
     @Size(min = 2, max = 100, message = "Author name must be between 2 and 100 characters!")
     private String authorName;
 

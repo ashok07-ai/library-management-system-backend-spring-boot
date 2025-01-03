@@ -21,7 +21,7 @@ public class Publisher {
     private Long id;
 
     @Column(name="publisher_name", unique = true, nullable = false, length = 50)
-    @NotBlank(message = "Publisher name cannot be blank!")
+    @NotBlank(message = "Publisher name is required!")
     @Size(min = 3, max = 50, message = "Publisher name must be between 3 and 50 characters!")
     private String publisherName;
 

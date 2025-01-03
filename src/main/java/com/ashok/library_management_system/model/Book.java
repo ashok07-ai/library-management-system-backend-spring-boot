@@ -21,12 +21,12 @@ public class Book {
     private Long id;
 
     @Column(name="book_isbn", unique = true, nullable = false, length = 50)
-    @NotBlank(message = "ISBN cannot be blank!")
+    @NotBlank(message = "ISBN is required!")
     @Size(min = 3, max = 50, message = "ISBN value must be between 3 and 50 characters!")
     private String bookISBN;
 
     @Column(name="book_name", unique = true, nullable = false, length = 100)
-    @NotBlank(message = "Book name cannot be blank!")
+    @NotBlank(message = "Book name is required!")
     @Size(min = 5, max = 100, message = "Book name must be between 5 and 100 characters!")
     private String bookName;
 
